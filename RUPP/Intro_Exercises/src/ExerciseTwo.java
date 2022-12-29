@@ -7,8 +7,7 @@ class ExerciseTwo {
         do {
             System.out.print("Enter a number: ");
             number = input.nextInt();
-        }while (number < 5);
-
+        }while (number < 5); // while number less than five execute the above block
         System.out.println("The last number you entered was a " + number);
 
         input.close();
