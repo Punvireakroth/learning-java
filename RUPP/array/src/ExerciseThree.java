@@ -23,3 +23,5 @@ class ExerciseThree {
         System.out.print(Arrays.toString(countryName));
     }
 }
+
+// Expect output: [Cambodia, French, Germany, Japan, Singapore, Thailand, USA]
