@@ -1,4 +1,8 @@
-import java.util.Arrays;
+/*
+Team: 4
+ITE M3
+output the longest String(word) in the sentence
+ */
 import java.util.Scanner;
 
 class exerciseOne {
@@ -12,12 +16,13 @@ class exerciseOne {
 
         int max = words[0].length();
 
+        // find the max length in all element
         for(int i = 0; i < words.length; i++) {
             if(words[i].length() > max) {
                 max = words[i].length();
             }
         }
-
+        // output that max length element as the String
         for(int i = 0; i < words.length; i++) {
             if(words[i].length() == max) {
                 System.out.println("The Longest word in this sentence is: " + words[i]);
